@@ -3,3 +3,5 @@ Det er vigtigt at dokumenterer sin konde så andre kan læse og forstå den. I s
 
 Eksempel
 ![billed af simpel kode](images/kode.png)
+
+test
