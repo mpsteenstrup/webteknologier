@@ -1,0 +1,58 @@
+header
+{
+    WIDTH: 100%;
+    padding:0px;
+    text-align:center;
+    background: rgb(200,200,200);
+}
+
+article
+{
+    padding:5px;
+    border:solid 3px rgb(255,0,0);
+    margin-top:5px;
+    width: 70%;
+}
+
+
+
+aside
+{
+    margin-top:5px;
+    background-color:#f0eaea;
+    padding:5px;
+    text-align:center;
+    font-style:italic;
+    border:double 3px #b200ff;
+    width: 20%;
+    float: right;
+}
+
+section
+{
+    padding:5px;
+    border:dashed 3px #0026ff;
+    margin-top:5px;
+    width: 70%;
+}
+
+footer
+{
+    padding:5px;
+    text-align:center;
+    font-weight:bold;
+}
+
+nav
+{
+    text-align:center;
+}
+ul li
+{
+    display:inline;
+    padding-left:5px;
+    padding-right:5px;
+    text-align:left;
+    font-size:16px;
+    font-weight:bold;
+}

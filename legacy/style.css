@@ -1,0 +1,33 @@
+body {
+  background-color: rgb(91, 146, 229);
+}
+
+/* overskrift h1 design */
+h1{
+font-style: italic;
+}
+
+/* afsnit specificeret med anden baggrund og font størrelse */
+
+.row {
+  display: flex; /* equal height of the children */
+}
+
+.col{
+flex: 1; /* additionally, equal width */
+float: left;
+padding: 10px;
+margin: 10px;
+border: solid;
+font-size: 40px;
+background-color: rgb(200,200,0);
+}
+
+div.right{
+float: right;
+background-color: rgb(200,100,100);
+width: 40%;
+height: 40%;
+overflow: hidden;
+font-size: 40;
+}
