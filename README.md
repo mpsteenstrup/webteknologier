@@ -13,7 +13,6 @@
 * [Template til portfolie](portfolieTemplate)
 * [Github til hosting af websider](#github-til-hosting-af-websider)
 
-
 ## Internettet
 
 * [Webteknologier 1, hvad er internettet](https://docs.google.com/presentation/d/1TTR3N7ilYQZZ0FdJGCxPvAx-VwPzGvcPsZ7QnUfQMxY/edit?usp=sharing)
