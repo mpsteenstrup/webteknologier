@@ -1,4 +1,6 @@
 # Webteknologier
+[link til web-style](https://mpsteenstrup.github.io/webteknologier/)
+[link til github-style](https://github.com/mpsteenstrup/webteknologier)
 
 ## Indholdsfortegnelse
 * [Internettet](##Internettet)
@@ -124,7 +126,7 @@ Når det hele er uploadet skal I ind i settings, hjulet, og ned til ```Github Pa
 
 Addressen på websiden er ```brugernavn.github.io/repository/```. Reklamesiden for Informatik ligger for eksempel på ```mpsteenstrup.github.io/webteknologier/InformatikRysensteen/```.
 
-Her er en side til at promovering af informatik.
+Her er en side til promovering af informatik.
 [https://mpsteenstrup.github.io/webteknologier/InformatikRysensteen/index.html](https://mpsteenstrup.github.io/webteknologier/InformatikRysensteen/index.html)
 
 Det kan godt kræve lidt tålmodighed at arbejde direkte i editoren på Github, da siden ikke altid opdatere så hurtigt. Man kan evt. prøve ```shift command R``` for hard reload af den side I vil se.
