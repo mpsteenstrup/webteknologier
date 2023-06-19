@@ -1,5 +1,5 @@
 # Webteknologier
-xxxxsx
+
 ## Indholdsfortegnelse
 * [Internettet](##Internettet)
 * [Projektbeskrivelse](#projektbeskrivelse-hjemmeside-til-præsentation-af-informatik-emned)
