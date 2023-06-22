@@ -106,18 +106,91 @@ Computere har en mappestruktur og filer ligger i mapper - det kommer måske som 
 
 ## Øvelse
 * Lav den mappe kaledet ```hjememside``` som I ikke gad ovenfor og placer et billede i undermappen ```billeder```.
+* Lav et relativt link til billedet fra html dokumentet ```<img src="billeder/filnavn" alt="navn på billed">```.
 
 Dette hedder et relativt link da det peget på billedet i mappen ```billeder``` som ligger i den mappe hvor ```index.html``` filen ligger. Det kan godt betale sig at holde noget struktur med billeder i en mappe og html filer i overmappen.
 
+# CSS - Cascade Style Sheet
+xx skal skrives
+
+# Layout
+Der er mange måder at lave layout til sin hjemmeside, men vi skal huske Steve Krugs overskrift til bogen **Don't make me think** om human-computer interaktion. Hvis vi kan designe interfacet så brugeren ikke skal tænke sig om gør det oplevelsen lettere for brugeren. Interaktionsdesign gennemgås på siden, [InformatikRysensteen/Interaktionsdesign](https://github.com/mpsteenstrup/InformatikRysensteen/blob/main/dokumenter/Interaktionsdesign.MD). Hvis hjemmesiderne ligner andre hjemmesider vil det være let for brugeren at finde rundt i.
+
+Standardlayout
+![eksempel på standardlayout](filer/layout.png)
+
+## Informatik Rysensteen siden
+Vi arbejder os igennem siden til promovering af Informatik på Rysensteen,
+[https://mpsteenstrup.github.io/webteknologier/InformatikRysensteen/index.html](https://mpsteenstrup.github.io/webteknologier/InformatikRysensteen/index.html).
+
 ## Øvelse
-* Lav en underside til ```index.html``` siden og link til den.
-* Lav et link på undersiden så I kan komme tilbage til hovedsiden.
+* Find ud af om jeg overholder min egen skabelon.
+* Prøv at lav siden mindre eller se den på en telefon, hvordan forandres den?
+
+Der er forskellige elementer i hjemmesiden som I skal have styr på,
+* Elementer afgrænset i bokse.
+* Styling med CSS.
+* Placering af elementerne i forhold til hinanden.
+
+## Afgrænsning i bokse
+```div``` står for **Content Division element** og er en ramme for indhold. Vi bruger den til at specificere forskelligt design og layout. ```class``` giver elementer forskellige attributter, ud fra vores designvalg.
+
+I eksemplet [class_capitals](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_classes_capitals) fra w3schools.com, definere vi designet i ```<style>``` med ```.city { }``` og kalder designet med ```<div class="city">```.
+
+### Øvelse
+* Find start og slut tag ```<div>,</div>``` som hhv. afgrænser overskriften og menubaren.
+
+I linje 22-25 står der
+```
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+```
+Hvert enkelt div tag hører sammen med et slut div tag
+
+### Øvelse
+* find slut taggene og forklar hvordan de tre bokse virker.
+
+## Styling med CSS
+De forskellige elementer på hjemmesiden skal styles forskelligt. Dette gøres et et CSS dokument som står for *Cascade Style Sheet*. Ved at lave et eksterne style sheet kan man referere til det fra alle html dokumenterne og man får derfor en konsistent ensartet styling. Det gør også at der kun er ét sted man skal lave om hvis man vil ændre stylingen.
+
+css dokumenter, ```mystyle.css``` inlkuderes i html dokumentet i headeren
+```
+<head>
+  <link rel="stylesheet" href="mystyle.css">
+</head>
+```
+I CSS kan vi style vores elementer enten direkte eller gennem en *class*.
+Direkte styling af elementer
+```
+body {                      
+  font-family: Arial;       /* sætter font */
+  padding: 10px;            /* margen omkring tekst */
+  background: rgb(20,90,120);    /* farven */
+}
+```
+Her styles ```body``` elementet med font, margen og baggrund. Man skriver altså navnet på det element man vil style og stylingen foregår imellem ```{}```. Når man bruger ```<body>``` taget har den valgte styling. 
+
+*class* styling,
+```
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+```
+class styling har punktum ```.``` før navnet og refereres til i html dokumentet som eks. ```<div class="leftcolumn">```.
+
+### Øvelse
+* Download de to filer [CSSIntroduktion.html](CSSIntroduktion.html) og [simple.css](simple.css) og åben siden.
+* Lav om i stylingen.
+
 
 
 # Github til hosting af websider
 Github er et online sted hvor udviklere lægger programmer, data og meget mere. Det er et versionsstyringsværktøj lavet til at arbejde på forskellige versione af samme software. Vi kommer ikke til at bruge denne feature men kun bruge
 det til at have vores websider liggenden.
-Det anbefales generelt ikke at bruge specialtegn, æøå og mellemrum i filnavne.
+
+**Det anbefales generelt ikke at bruge specialtegn, æøå og mellemrum i filnavne.**
 
 I kan bruge Github til at hoste jeres webside. Startsiden hedder ```index.html``` og skal placeres i roden af jeres github repository. I kan linke til undersider ved relative referencer, eks ```<a href="side2.html"> Link til side 2 </a>```.
 

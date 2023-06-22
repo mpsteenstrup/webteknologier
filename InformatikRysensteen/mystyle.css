@@ -1,22 +1,22 @@
 
-* {
-  box-sizing: border-box;
+* {                         /* stjernen betyder for alle elememter */
+  box-sizing: border-box;   /* beregner størrelsen af alle elementer med helt ud til kaneten */
 }
 
-body {
-  font-family: Arial;
-  padding: 10px; /* margen omkring tekst */
-  background: #175676;
+body {                      
+  font-family: Arial;       /* sætter font */
+  padding: 10px;            /* margen omkring tekst */
+  background: rgb(20,90,120);    /* farven */
 }
 
-/* Header/Blog Title */
-.header {
+                            /* Header/Blog Title */
+.header {                   /* . betyder det er en class */
   padding: 30px;
   text-align: center;
-  background: #4BA3C3;
+  background: rgb(80,160,200);
 }
 
-/* sætter h1 i header klassen til fontsize 50px*/
+                            /* sætter h1 i header klassen til fontsize 50px*/
 .header h1 {
   font-size: 50px;
 }
@@ -24,7 +24,7 @@ body {
 /* Style the top navigation bar */
 .topnav {
   overflow: hidden; /* tekst bliver ikke vist hvis det går ud over kanten*/
-  background-color: #333;
+  background-color: rgb(0,0,0);
 }
 
 /* Style the topnav links */
@@ -39,7 +39,7 @@ body {
 
 /* Change color on hover */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: rgb(200,230,240);
   color: black;
 }
 
@@ -48,27 +48,20 @@ body {
 .leftcolumn {
   float: left;
   width: 75%;
-  background-color: #175676;
 }
 
 /* Right column */
 .rightcolumn {
   float: left;
   width: 25%;
-  background-color: #175676;
   padding-left: 20px;
 }
 
-/* Fake image */
-.fakeimg {
-  background-color: #BA324F;
-  width: 100%;
-  padding: 20px;
-}
+
 
 /* Add a card effect for articles */
 .card {
-  background-color: #CCE6F4;
+  background-color: rgb(200,230,240);
   padding: 20px;
   margin-top: 20px;
 }
@@ -86,7 +79,7 @@ body {
 .footer {
   padding: 20px;
   text-align: left;
-  background: #ddd;
+  background: rgb(80,160,200);
   margin-top: 20px;
 }
 
