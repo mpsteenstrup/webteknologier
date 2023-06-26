@@ -7,15 +7,11 @@
 * [Internettet](##Internettet)
 * [Projektbeskrivelse](#projektbeskrivelse-hjemmeside-til-præsentation-af-informatik-emned)
 * [HTML programmering](#html-programmering)
-
-
-* [CSS styling](/CSS)
 * [Layout](#css-og-webside-layout)
-* [Farver](farver.md)
-* [Gestaltlovene](gestaltlovene.md)
-* [Interaktionsdesign](interaktionsdesign.md)
-* [Dokumentation af kode](dokumentatioAfKode.md)
-* [Template til portfolie](portfolieTemplate/index.html)
+* [Gestaltlovene](#gestaltlovene)
+* [Farver](https://github.com/mpsteenstrup/InformatikRysensteen/blob/main/dokumenter/Interaktionsdesign.MD#farver)
+* [Portfolie](#portfolie)
+* [Dokumentation af kode](#dokumentation-af-kode-på-hjemmesider)
 * [Github til hosting af websider](#github-til-hosting-af-websider)
 
 ## Internettet
@@ -110,9 +106,6 @@ Computere har en mappestruktur og filer ligger i mapper - det kommer måske som 
 
 Dette hedder et relativt link da det peget på billedet i mappen ```billeder``` som ligger i den mappe hvor ```index.html``` filen ligger. Det kan godt betale sig at holde noget struktur med billeder i en mappe og html filer i overmappen.
 
-# CSS - Cascade Style Sheet
-xx skal skrives
-
 # Layout
 Der er mange måder at lave layout til sin hjemmeside, men vi skal huske Steve Krugs overskrift til bogen **Don't make me think** om human-computer interaktion. Hvis vi kan designe interfacet så brugeren ikke skal tænke sig om gør det oplevelsen lettere for brugeren. Interaktionsdesign gennemgås på siden, [InformatikRysensteen/Interaktionsdesign](https://github.com/mpsteenstrup/InformatikRysensteen/blob/main/dokumenter/Interaktionsdesign.MD). Hvis hjemmesiderne ligner andre hjemmesider vil det være let for brugeren at finde rundt i.
 
@@ -185,6 +178,25 @@ class styling har punktum ```.``` før navnet og refereres til i html dokumentet
 * Lav om i stylingen.
 
 
+## Gestaltlovene
+Gestaltlovene handler om hvordan vores hjerne omsætter synsindtryk til sammenhænge. Det er beskrevet her, [gestaltlovene](https://github.com/mpsteenstrup/InformatikRysensteen/blob/main/dokumenter/Interaktionsdesign.MD#gestaltlovene).
+
+### Øvelse
+Her er gestaltlovene, Nærhed, Lighed, Lukkethed, Forbundethed, Figur og baggrund.
+
+* Vurder hvordan gestaltlovene kan bruges til at forklare [InformatikRysensteen hjemmesiden](https://mpsteenstrup.github.io/webteknologier/InformatikRysensteen/index.html).
+* Kig på en anden hjemmeside og analyser med gestaltlovene.
+
+## Portfolie
+Portfolien og logbog er det samme og er beskrevet her, [https://github.com/mpsteenstrup/InformatikRysensteen/blob/main/dokumenter/Logbog.md](https://github.com/mpsteenstrup/InformatikRysensteen/blob/main/dokumenter/Logbog.md)
+
+Jeg har lavet en template til portfolie som I kan tage udgangspunkt i, [Template til portfolie](portfolieTemplate/index.html)
+
+### Dokumentation af kode på hjemmesider
+Det er vigtigt at dokumenterer sin kode så andre kan læse og forstå den. I skal kunne redegøre for hvad de forskellige delel i koden gør. Det gør I lettest ved at indsætte et billed af den del af koden I skal beskrive.
+
+Eksempel
+![billed af simpel kode](images/kode.png)
 
 # Github til hosting af websider
 Github er et online sted hvor udviklere lægger programmer, data og meget mere. Det er et versionsstyringsværktøj lavet til at arbejde på forskellige versione af samme software. Vi kommer ikke til at bruge denne feature men kun bruge
@@ -204,26 +216,3 @@ Her er en side til promovering af informatik.
 [https://mpsteenstrup.github.io/webteknologier/InformatikRysensteen/index.html](https://mpsteenstrup.github.io/webteknologier/InformatikRysensteen/index.html)
 
 Det kan godt kræve lidt tålmodighed at arbejde direkte i editoren på Github, da siden ikke altid opdatere så hurtigt. Man kan evt. prøve ```shift command R``` for hard reload af den side I vil se.
-
-
-### Layout med topbar
-Her er en template til et layout med en menu i toppen, [layoutTopbar.html](/introduktion/layoutTopbar.html)
-
-
-## ```div``` og ```class```
-```div``` står for **Content Division element** og er en ramme for indhold. Vi bruger den til at specificere forskelligt design og layout. ```class```giver elementer forskellige attributter, ud fra vores designvalg.
-
-I eksemplet [class_capitals](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_classes_capitals) fra w3schools.com, definere vi designet i ```<style>``` med ```.city { }``` og kalder designet med ```<div class="city">```.
-
-## CSS og webside layout
-W3schools har faktisk skrevet ret godt, så her er linket.
-[https://www.w3schools.com/css/css_website_layout.asp](https://www.w3schools.com/css/css_website_layout.asp)
-
-Filen [responsiveWebdesign](/introduktion/responsivWebdesign.html) er en kommenteret version som skalerer fint med forskellige skærmstørrelser. Den er ret fin.
-
-
-
-<!--- * [index.html, et eksempel på basal html kodning som opfylder læringsmålene](https://mpsteenstrup.github.io/index.html)
-
-* [Eksempler til introduktion til html, side1.htlm...](/introduktion)
---->
