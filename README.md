@@ -7,7 +7,7 @@
 * [Internettet](##Internettet)
 * [Projektbeskrivelse](#projektbeskrivelse-hjemmeside-til-præsentation-af-informatik-emned)
 * [HTML programmering](#html-programmering)
-* [Layout](#css-og-webside-layout)
+* [Layout](#Layout)
 * [Gestaltlovene](#gestaltlovene)
 * [Farver](https://github.com/mpsteenstrup/InformatikRysensteen/blob/main/dokumenter/Interaktionsdesign.MD#farver)
 * [Portfolie](#portfolie)
