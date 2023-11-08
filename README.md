@@ -120,10 +120,18 @@ Vi arbejder os igennem siden til promovering af Informatik på Rysensteen,
 * Find ud af om jeg overholder min egen skabelon.
 * Prøv at lav siden mindre eller se den på en telefon, hvordan forandres den?
 
+Hele hjemmesiden kan downloades fra denne zip-fil, [https://github.com/mpsteenstrup/webteknologier/blob/main/InformatikRysensteen_kode.zip](https://github.com/mpsteenstrup/webteknologier/blob/main/InformatikRysensteen_kode.zip)
+
+## Øvelse
+* Hent zip-filen og fold den ud.
+* Åben ```index.html``` filen.
+* Undersøg hvilke filer der er i mappen.
+
 Der er forskellige elementer i hjemmesiden som I skal have styr på,
 * Elementer afgrænset i bokse.
 * Styling med CSS.
 * Placering af elementerne i forhold til hinanden.
+
 
 ## Afgrænsning i bokse
 ```div``` står for **Content Division element** og er en ramme for indhold. Vi bruger den til at specificere forskelligt design og layout. ```class``` giver elementer forskellige attributter, ud fra vores designvalg.
