@@ -29,27 +29,28 @@
 Internettet er den altdominerende teknologi til deling af information. I dette forløb vil vi se på internettets opbygning og hvilke teknologier der ligger bag. Som projekt skal I lave en hjemmeside og offentliggøre den på Github.
 
 
-## Projektbeskrivelse, Hjemmeside til præsentation af informatik-emne.
-xx
-I forhold til Facebook, Instagram o.l. er der helt kontrol over hvordan hjemmesiden ser ud, hvilket budskab der skal formidles og hvilken oplevelse brugeren får.
+## Projektbeskrivelse, GCP: rejse-app til kommende rejseklasser.
+I har alle været afsted på GCP rejser og har kroppen fyldt af spændende oplevelser og telefonerne fulde af billeder og videoklip. 
 
-I informatik skal I redegøre for jeres projektarbejde i en portfolie. Portfolien skal være tilgængelig online og i dette projekt skal I lave strukturen til portfolien. Det er ok at linke til andre sider, evt. den I har arbejdet med de to første moduler.
+Til næste år skal nye 3.g elever til samme destinationer og I skal hjælpe dem med at begå sig i det fremmede.
 
-Hjemmesiden skal indeholde
-* En hoveside med en kort introduktion.
-* Links til kommende undersider.
+Med baggrund i jeres store viden skal I lave en hjemmeside som mobil-app til hjælp på kommende rejser. 
+
+Appen skal indeholde
+* En hoveside med en kort introduktion af destinationen.
+* Link og undersider med relevant information.
 * Overskrift og afsnit.
 * Billeder eller videoer.
 * Styling med brug af CSS
 
-Fokus er på at lære at programmere en hjemmeside og ikke i lige så høj grad indholdet.
-
 I portfolien skal I dokumentere
 * Beskrive de designprincipper I har brugt, herunder valg af farver.
+* Persona som jeres app retter sig imod.
 
 
 # HTML programmering
-Det er mange ressourcer når man skal lære at programmere hjemmesider. W3schools har tutorials til mange forskellige programmeringssprog. Det I skal bruge er, [https://www.w3schools.com/html/default.asp](https://www.w3schools.com/html/default.asp).
+Det er mange ressourcer når man skal lære at programmere hjemmesider. W3schools har tutorials til mange forskellige programmeringssprog også til html.
+I skal bruge en versione af ChatGPT til at lærer at lave hjemmesider. Her er et link, [https://poe.com/webteknologier2024](https://poe.com/webteknologier2024).
 
 ## Opbygning af hjemmeside
 Her vil vi gennemgå det basale i forhold til at programmere en hjemmeside. De hjemmesider I skal lave bliver lavet i en tekst editor, vi bruger [Visual Studio Code](https://github.com/mpsteenstrup/InformatikRysensteen/blob/main/dokumenter/TekstEditorOgGithubTilmelding.md), og gemmes med endelsen ```.html```. Startsiden kaldes ofte index så filnavnet skal være ```index.html```.
@@ -196,8 +197,8 @@ Her er gestaltlovene, Nærhed, Lighed, Lukkethed, Forbundethed, Figur og baggrun
 * Vurder hvordan gestaltlovene kan bruges til at forklare [InformatikRysensteen hjemmesiden](https://mpsteenstrup.github.io/webteknologier/InformatikRysensteen/index.html).
 * Kig på en anden hjemmeside og analyser med gestaltlovene.
 
-## Portfolie
-Portfolien og logbog er det samme og er beskrevet her, [https://github.com/mpsteenstrup/InformatikRysensteen/blob/main/dokumenter/Logbog.md](https://github.com/mpsteenstrup/InformatikRysensteen/blob/main/dokumenter/Logbog.md)
+## Logbog
+Logbog er beskrevet her, [https://github.com/mpsteenstrup/InformatikRysensteen/blob/main/dokumenter/Logbog.md](https://github.com/mpsteenstrup/InformatikRysensteen/blob/main/dokumenter/Logbog.md)
 
 Jeg har lavet en template til portfolie som I kan tage udgangspunkt i, [Template til portfolie](portfolieTemplate/index.html)
 
