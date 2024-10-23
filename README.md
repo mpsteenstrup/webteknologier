@@ -30,6 +30,7 @@ Internettet er den altdominerende teknologi til deling af information. I dette f
 
 
 ## Projektbeskrivelse, Hjemmeside til præsentation af informatik-emne.
+xx
 I forhold til Facebook, Instagram o.l. er der helt kontrol over hvordan hjemmesiden ser ud, hvilket budskab der skal formidles og hvilken oplevelse brugeren får.
 
 I informatik skal I redegøre for jeres projektarbejde i en portfolie. Portfolien skal være tilgængelig online og i dette projekt skal I lave strukturen til portfolien. Det er ok at linke til andre sider, evt. den I har arbejdet med de to første moduler.
