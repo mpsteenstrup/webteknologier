@@ -52,6 +52,8 @@ It-systemers og menneskelig aktivitets gensidige påvirkning
 Eleverne skal kunne:
 * give eksempler på, hvordan it-systemer har betydning for og påvirker menneskelige aktiviteter It-sikkerhed, netværk og arkitektur.
 
+It-sikkerhed, netværk og arkitektur
+
 Eleverne skal kunne:
 * redegøre for beskyttelse af egen digital identitet og egne data på internettet samt redegøre for tekniske og menneskelige aspekter af it-sikkerhed.
 * redegøre for generelle principper bag it-systemers arkitekturer ved udarbejdelse af it-systemer og tilpasning af eksisterende it-systemer.
