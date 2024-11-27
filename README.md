@@ -201,6 +201,19 @@ class styling har punktum ```.``` før navnet og refereres til i html dokumentet
 * Download de to filer [CSSIntroduktion.html](CSSIntroduktion.html) og [simple.css](simple.css) og åben siden.
 * Lav om i stylingen.
 
+## Mobil-app
+Her er to eksempler på hjemmesider som kan ses på mobiltelefoner. Det kan gøres på rigtigt mange måder, men dette er en relativt simpel version.
+
+* [Hjemmeside 1.](https://mpsteenstrup.github.io/webteknologier/mobilapp/index.html)
+* [Hjemmeside 2.](https://mpsteenstrup.github.io/webteknologier/mobilapp/index2.html)
+
+Mappen med koden er her
+
+* [mobilapp](https://github.com/mpsteenstrup/webteknologier/tree/main/mobilapp) 
+
+Den kan hentes ved at kopiere url'en ind her
+
+* [https://download-directory.github.io/](https://download-directory.github.io/)
 
 ## Gestaltlovene
 Gestaltlovene handler om hvordan vores hjerne omsætter synsindtryk til sammenhænge. Det er beskrevet her, [gestaltlovene](https://github.com/mpsteenstrup/InformatikRysensteen/blob/main/dokumenter/Interaktionsdesign.MD#gestaltlovene).
